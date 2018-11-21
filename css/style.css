@@ -341,7 +341,56 @@ span{
 }
 
 #touch-text{
-    padding-top: 67px;
+    padding-top: 28px;
 }
 
 /*Stay In touch Ends*/
+
+
+/* Form area Css Begin*/
+
+#form-background{
+   
+    background-color: #121212;
+    min-height: 300px;
+
+}
+#form-div{
+    margin-top: 32px;
+    font-family: "Raleway";
+}
+#form{
+    background-color: #ffffff;
+    margin-top: -80px;
+    margin-left: 111px;
+}
+#send-message{
+    margin-left: 762px;
+    margin-bottom: 23px;
+}
+#send-message{
+    border-radius: 25px;
+}
+
+/* Form area Css Ends*/
+
+
+
+/*Horizontal Bar begin*/
+.hor-bar{
+    background-color: #273c56 ;
+    z-index: auto;
+    min-height: 5px;
+}
+/*Horizontal Bar Ends*/
+
+
+
+/*Footer Begin*/
+.footer{
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: "Ralway";
+}
+
+/*Footer Ends*/
