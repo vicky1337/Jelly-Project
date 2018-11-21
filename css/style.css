@@ -147,6 +147,11 @@ span{
    border: 2px solid #e6e7e8;
    padding:60px 10px;
    margin:30px 0px;
+   max-height: 348px;
+   min-height: 348px;
+   overflow: auto;
+  
+   display: block;
 }
 
 .box-part:hover{
@@ -379,9 +384,9 @@ span{
 /*Horizontal Bar begin*/
 .hor-bar{
     background-color: #273c56 ;
-    z-index: auto;
-    min-height: 5px;
+    min-height: 2px;
 }
+
 /*Horizontal Bar Ends*/
 
 
@@ -390,7 +395,7 @@ span{
 .footer{
     background-color: #121212;
     color: #FFFFFF;
-    font-family: "Ralway";
+    font-family: "Raleway";
 }
 
 /*Footer Ends*/
