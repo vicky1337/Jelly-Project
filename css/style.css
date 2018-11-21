@@ -180,8 +180,13 @@ span{
 /*Latest Project Css begin*/
 .project-heading{
     font-family: "raleway";
-    
-   
+      
+}
+
+.banner-mac{
+    height: 375px;
+    width: 100%;
+    background-color: #f1f2f2;
 }
 
 
