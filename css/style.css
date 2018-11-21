@@ -1,0 +1,177 @@
+/* Gradient Div Css */
+.gradient{
+height: 7px;
+width: 100%;    
+background: -moz-linear-gradient(45deg, rgba(0,125,240,1) 0%, rgba(0,228,240,1) 100%); /* ff3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,125,240,1)), color-stop(100%, rgba(0,228,240,1))); /* safari4+,chrome */
+background: -webkit-linear-gradient(45deg, rgba(0,125,240,1) 0%, rgba(0,228,240,1) 100%); /* safari5.1+,chrome10+ */
+background: -o-linear-gradient(45deg, rgba(0,125,240,1) 0%, rgba(0,228,240,1) 100%); /* opera 11.10+ */
+background: -ms-linear-gradient(45deg, rgba(0,125,240,1) 0%, rgba(0,228,240,1) 100%); /* ie10+ */
+background: linear-gradient(45deg, rgba(0,125,240,1) 0%, rgba(0,228,240,1) 100%); /* w3c */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e4f0', endColorstr='#007df0',GradientType=1 ); /* ie6-9 */
+}
+
+/* Gradient Div Css Ends*/
+
+/* Navbar Area */
+.navbar{
+    background: white;
+}
+.nav-link{
+    left: 10px;
+}
+/* Navbar Area Ends*/
+.carousel-item{
+    /* opacity: 0.5; */
+}
+
+/*Text Inside the banner*/
+.first-tag{
+    position: absolute;
+    top: 350px;
+    left: 518px;
+    color: whitesmoke;
+
+}
+.p-tag{
+    position: absolute;
+    top: 400px;
+    left: 405px;
+    color: whitesmoke;
+    font-family: inherit;
+    font-weight: lighter;
+    font-size: 26px;
+    text-align: center;
+
+}
+
+#button-main{
+
+    position: absolute;
+    width: 194px;
+    height: 42px;
+    top: 450px;
+    left: 605px;
+    background-color: #0493d7;
+    border-color: #0493d7;
+    color: aliceblue;  
+    font-weight: lighter;
+    letter-spacing: 1px;
+  
+}
+
+/*Text Inside the banner*/
+
+
+/*Company Experience Css */
+.boundry-div{
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 500px;
+    height: 500px;
+    border: 9px solid black;
+    border-radius: 5px;
+}
+
+.inside-img{
+    left: 10px;
+    height:350px; 
+    width:400px;
+}
+
+.abt-us{
+    
+    font-family: "lato";
+    font-weight: 700;
+    z-index: 5;
+    
+}
+.exp{
+    font-family: "lato";
+    font-weight: 400;
+}
+
+.para-ins{
+    font-family: "lato";
+    color: grey;
+}
+
+#serv-div1{
+    top: 72px;
+}
+#serv-about{
+    top: 72px;
+}
+
+#learn-btn{
+    border-color: #464646;
+    font-family: "Raleway";
+    width: 134px;
+    height: 40px;
+}
+/*Company Experience Css */
+
+/*Our Services*/
+#our-serv{
+   top: 156px;
+ 
+}
+#our-serv-h1{
+    color: #232323;
+    font-family: "Raleway";
+    font-weight: 600px;
+
+}
+
+#our-serv-p{
+    color: #232323;
+    font-family: "Raleway";
+}
+
+/*Our Services*/
+
+
+/*Card Section Css Begin */
+h3{
+    
+    font-family: "Raleway";
+    font-variant: all-petite-caps;
+}
+span{
+    font-family: "raleway";
+    color: #232323;
+}
+
+.box{
+   padding:60px 0px;
+}
+
+.box-part{
+   background:#FFF;
+   border: 2px solid #e6e7e8;
+   padding:60px 10px;
+   margin:30px 0px;
+}
+
+.box-part:hover{
+   background:#0493d7;
+}
+
+.box-part:hover .img-1,
+.box-part:hover .title , 
+.box-part:hover span ,
+.box-part:hover a{
+   color:#FFF;
+   -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+}
+
+.text{
+   margin:20px 0px;
+}
+
+
+
+/*Card Section Css Ends */
