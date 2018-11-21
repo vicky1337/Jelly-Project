@@ -119,7 +119,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00e4f0', end
 #our-serv-h1{
     color: #232323;
     font-family: "Raleway";
-    font-weight: 600px;
+  
 
 }
 
@@ -175,3 +175,19 @@ span{
 
 
 /*Card Section Css Ends */
+
+
+/*Latest Project Css begin*/
+.project-heading{
+    font-family: "raleway";
+      
+}
+
+.banner-mac{
+    height: 375px;
+    width: 100%;
+    background-color: #f1f2f2;
+}
+
+
+/*Latest Project Css Ends*/
